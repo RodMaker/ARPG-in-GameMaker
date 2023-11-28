@@ -14,6 +14,7 @@
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
+    {"name":"Managers","order":3,"path":"folders/Objects/Managers.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"PlayerStateRoll","order":4,"path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},
@@ -28,5 +29,6 @@
     {"name":"sCol","order":2,"path":"sprites/sCol/sCol.yy",},
     {"name":"rInit","order":2,"path":"rooms/rInit/rInit.yy",},
     {"name":"tTiles","order":1,"path":"tilesets/tTiles/tTiles.yy",},
+    {"name":"ScreenShake","order":5,"path":"scripts/ScreenShake/ScreenShake.yy",},
   ],
 }
