@@ -19,10 +19,35 @@ if (_oldSprite != sprite_index) localFrame = 0;
 // Update Image Index
 PlayerAnimateSprite();
 
-// Change State
+// Activate Key Logic
 if (keyActivate)
 {
-	state = PlayerStateRoll;
-	moveDistanceRemaining = distanceRoll;
+	// 1. Check for an entity to activate
+	// 2. If there is nothing, or there is something, but it has no script - Roll
+	// 3. Otherwise, there is something and it has a script - Activate
+	// 4. If the thing we activate is a NPC, make it face towards us
+	
+	var _activateX = lengthdir_x(10, direction);
+	var _activateY = lengthdir_y(10, direction);
+	activate = instance_position(x+_activateX, y+_activateY, pEntity);
+	
+	if (activate == noone || activate.entityActivateScript == -1)
+	{
+		state = PlayerStateRoll;
+		moveDistanceRemaining = distanceRoll;
+	}
+	else
+	{
+		ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
+		
+		if (activate.entityNPC)
+		{
+			with (activate)
+			{
+				direction = point_direction(x,y,other.x,other.y);
+				image_index = CARDINAL_DIR;
+			}
+		}
+	}
 }
 }
