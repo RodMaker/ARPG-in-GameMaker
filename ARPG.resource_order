@@ -24,6 +24,7 @@
     {"name":"sQuestNPC","order":7,"path":"sprites/sQuestNPC/sQuestNPC.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
     {"name":"PlayerStateLocked","order":7,"path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},
+    {"name":"DialogueResponses","order":10,"path":"scripts/DialogueResponses/DialogueResponses.yy",},
     {"name":"ScriptExecuteArray","order":9,"path":"scripts/ScriptExecuteArray/ScriptExecuteArray.yy",},
     {"name":"sPlayerRoll","order":3,"path":"sprites/sPlayerRoll/sPlayerRoll.yy",},
     {"name":"PlayerCollision","order":2,"path":"scripts/PlayerCollision/PlayerCollision.yy",},
