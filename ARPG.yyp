@@ -83,6 +83,7 @@
     {"id":{"name":"NineSliceBoxStretched","path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},},
     {"id":{"name":"sPlantB","path":"sprites/sPlantB/sPlantB.yy",},},
     {"id":{"name":"oPlantB","path":"objects/oPlantB/oPlantB.yy",},},
+    {"id":{"name":"DropItems","path":"scripts/DropItems/DropItems.yy",},},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},},
     {"id":{"name":"sPlant","path":"sprites/sPlant/sPlant.yy",},},

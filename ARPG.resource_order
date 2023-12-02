@@ -58,6 +58,7 @@
     {"name":"NineSliceBoxStretched","order":2,"path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},
     {"name":"sPlantB","order":13,"path":"sprites/sPlantB/sPlantB.yy",},
     {"name":"oPlantB","order":10,"path":"objects/oPlantB/oPlantB.yy",},
+    {"name":"DropItems","order":13,"path":"scripts/DropItems/DropItems.yy",},
     {"name":"oText","order":4,"path":"objects/oText/oText.yy",},
     {"name":"ScreenShake","order":1,"path":"scripts/ScreenShake/ScreenShake.yy",},
     {"name":"sPlant","order":12,"path":"sprites/sPlant/sPlant.yy",},
