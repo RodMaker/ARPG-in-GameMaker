@@ -20,6 +20,7 @@
   "ResourceOrderSettings": [
     {"name":"PlayerStateRoll","order":6,"path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},
     {"name":"AttackSlash","order":9,"path":"scripts/AttackSlash/AttackSlash.yy",},
+    {"name":"RoomTransition","order":14,"path":"scripts/RoomTransition/RoomTransition.yy",},
     {"name":"oGame","order":1,"path":"objects/oGame/oGame.yy",},
     {"name":"rVillage","order":1,"path":"rooms/rVillage/rVillage.yy",},
     {"name":"sQuestNPC","order":7,"path":"sprites/sQuestNPC/sQuestNPC.yy",},
@@ -36,6 +37,7 @@
     {"name":"CalcAttack","order":10,"path":"scripts/CalcAttack/CalcAttack.yy",},
     {"name":"oRoomExit","order":13,"path":"objects/oRoomExit/oRoomExit.yy",},
     {"name":"oFragment","order":11,"path":"objects/oFragment/oFragment.yy",},
+    {"name":"oTransition","order":14,"path":"objects/oTransition/oTransition.yy",},
     {"name":"pEntity","order":6,"path":"objects/pEntity/pEntity.yy",},
     {"name":"rRiver","order":3,"path":"rooms/rRiver/rRiver.yy",},
     {"name":"sTiles","order":4,"path":"sprites/sTiles/sTiles.yy",},
@@ -59,6 +61,7 @@
     {"name":"EntityHitDestroy","order":11,"path":"scripts/EntityHitDestroy/EntityHitDestroy.yy",},
     {"name":"NineSliceBoxStretched","order":2,"path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},
     {"name":"sPlantB","order":13,"path":"sprites/sPlantB/sPlantB.yy",},
+    {"name":"PlayerStateTransition","order":7,"path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},
     {"name":"oPlantB","order":10,"path":"objects/oPlantB/oPlantB.yy",},
     {"name":"DropItems","order":13,"path":"scripts/DropItems/DropItems.yy",},
     {"name":"oText","order":4,"path":"objects/oText/oText.yy",},
