@@ -30,7 +30,9 @@ if (keyAttack)
 if (keyActivate)
 {
 	// 1. Check for an entity to activate
-	// 2. If there is nothing, or there is something, but it has no script - Roll
+	// 2. If there is nothing, or there is something, but it has no script
+	// 2.a If we are carrying something, throw it
+	// 2.b Otherwise, roll
 	// 3. Otherwise, there is something and it has a script - Activate
 	// 4. If the thing we activate is a NPC, make it face towards us
 	
@@ -40,8 +42,16 @@ if (keyActivate)
 	
 	if (activate == noone || activate.entityActivateScript == -1)
 	{
-		state = PlayerStateRoll;
-		moveDistanceRemaining = distanceRoll;
+		// Throw something if held, otherwise roll
+		if (global.iLifted != noone)
+		{
+			PlayerThrow();
+		}
+		else
+		{
+			state = PlayerStateRoll;
+			moveDistanceRemaining = distanceRoll;
+		}
 	}
 	else
 	{

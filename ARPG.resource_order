@@ -37,6 +37,7 @@
     {"name":"EntityHitSolid","order":12,"path":"scripts/EntityHitSolid/EntityHitSolid.yy",},
     {"name":"PlayerStateAttack","order":2,"path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},
     {"name":"CalcAttack","order":10,"path":"scripts/CalcAttack/CalcAttack.yy",},
+    {"name":"PlayerThrow","order":17,"path":"scripts/PlayerThrow/PlayerThrow.yy",},
     {"name":"oRoomExit","order":13,"path":"objects/oRoomExit/oRoomExit.yy",},
     {"name":"oFragment","order":11,"path":"objects/oFragment/oFragment.yy",},
     {"name":"oTransition","order":14,"path":"objects/oTransition/oTransition.yy",},

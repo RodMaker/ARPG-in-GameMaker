@@ -58,6 +58,7 @@
     {"id":{"name":"EntityHitSolid","path":"scripts/EntityHitSolid/EntityHitSolid.yy",},},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},},
     {"id":{"name":"CalcAttack","path":"scripts/CalcAttack/CalcAttack.yy",},},
+    {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},},
     {"id":{"name":"oFragment","path":"objects/oFragment/oFragment.yy",},},
