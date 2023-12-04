@@ -13,6 +13,10 @@ waitDuration = 60;
 wait = 0;
 aggroCheck = 0;
 aggroCheckDuration = 5;
+stateTarget = state;
+statePrevious = state;
+stateWait = 0;
+stateDuration = 0;
 
 // Enemy Sprites
 sprMove = sSlime;
@@ -24,4 +28,4 @@ enemyScript[ENEMYSTATE.CHASE] = -1;
 enemyScript[ENEMYSTATE.ATTACK] = -1;
 enemyScript[ENEMYSTATE.HURT] = -1;
 enemyScript[ENEMYSTATE.DIE] = -1;
-enemyScript[ENEMYSTATE.WAIT] = -1;
+enemyScript[ENEMYSTATE.WAIT] = EnemyWait;
