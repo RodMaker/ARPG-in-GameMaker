@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "SlimeChase",
+  "name": "SlimeFunctions",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

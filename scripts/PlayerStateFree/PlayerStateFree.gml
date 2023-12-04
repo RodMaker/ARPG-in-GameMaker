@@ -23,7 +23,7 @@ PlayerAnimateSprite();
 if (keyAttack)
 {
 	state = PlayerStateAttack;
-	stateAttack = AttackSlash;
+	stateAttack = PlayerAttackFunctions;
 }
 
 // Activate Key Logic
