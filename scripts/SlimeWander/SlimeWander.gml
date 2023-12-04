@@ -41,4 +41,15 @@ else // Move Towards New Destination
 	// Collide and Move
 	EnemyTileCollision();
 }
+
+// Check For Aggro
+if (++aggroCheck >= aggroCheckDuration)
+{
+	aggroCheck = 0;
+	if (instance_exists(oPlayer)) && (point_distance(x,y,oPlayer.x,oPlayer.y) <= enemyAggroRadius)
+	{
+		state = ENEMYSTATE.CHASE;
+		target = oPlayer;
+	}
+}
 }

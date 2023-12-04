@@ -25,6 +25,7 @@
     {"name":"oGame","order":1,"path":"objects/oGame/oGame.yy",},
     {"name":"rVillage","order":1,"path":"rooms/rVillage/rVillage.yy",},
     {"name":"sQuestNPC","order":7,"path":"sprites/sQuestNPC/sQuestNPC.yy",},
+    {"name":"SlimeChase","order":20,"path":"scripts/SlimeChase/SlimeChase.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
     {"name":"sSlime","order":18,"path":"sprites/sSlime/sSlime.yy",},
     {"name":"PlayerStateLocked","order":5,"path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},
