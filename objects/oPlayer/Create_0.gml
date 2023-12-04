@@ -1,5 +1,5 @@
 state = PlayerStateFree;
-stateAttack = PlayerAttackFunctions;
+stateAttack = AttackSlash;
 hitByAttack = -1;
 lastState = state;
 
