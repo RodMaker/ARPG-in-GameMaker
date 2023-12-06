@@ -20,9 +20,9 @@ if (keyboard_check_pressed(vk_space))
 	var _messageLength = string_length(messageText);
 	if (textProgress >= _messageLength)
 	{
-		if (responses[0] != -1)
+		if (responses[0] !=-1)
 		{
-			with (originInstance) DialogueResponses(other.responsesScripts[other.responseSelected]);
+			with (originInstance) DialogueResponses(other.responseScripts[other.responseSelected]);
 		}
 		
 		instance_destroy();

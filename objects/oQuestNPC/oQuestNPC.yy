@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sQuestNPC",
-    "path": "sprites/sQuestNPC/sQuestNPC.yy",
+    "name": "sQuestie",
+    "path": "sprites/sQuestie/sQuestie.yy",
   },
   "spriteMaskId": null,
   "visible": true,

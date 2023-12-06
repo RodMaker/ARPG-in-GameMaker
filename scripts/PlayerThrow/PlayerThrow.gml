@@ -18,4 +18,6 @@ with (global.iLifted)
 }
 PlayerActOutAnimation(sPlayerLift);
 global.iLifted = noone;
+spriteIdle = sPlayer;
+spriteRun = sPlayerRun;
 }

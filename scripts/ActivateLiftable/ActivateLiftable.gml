@@ -5,6 +5,9 @@ if (global.iLifted == noone)
 {
 	PlayerActOutAnimation(sPlayerLift);
 	
+	spriteIdle = sPlayerCarrying;
+	spriteRun = sPlayerRunCarrying;
+	
 	global.iLifted = argument0;
 	with (global.iLifted)
 	{
