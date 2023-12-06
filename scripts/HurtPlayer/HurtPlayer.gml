@@ -21,6 +21,7 @@ if (oPlayer.invulnerable <= 0)
 	else
 	{
 		// Kill the player
+		with (oPlayer) state = PlayerStateDead;
 	}
 }
 }
