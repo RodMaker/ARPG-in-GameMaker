@@ -48,6 +48,7 @@
     {"id":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},},
     {"id":{"name":"sQuestie","path":"sprites/sQuestie/sQuestie.yy",},},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
+    {"id":{"name":"UseItemFuncs","path":"scripts/UseItemFuncs/UseItemFuncs.yy",},},
     {"id":{"name":"sSlime","path":"sprites/sSlime/sSlime.yy",},},
     {"id":{"name":"PlayerStateLocked","path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},},
     {"id":{"name":"DialogueResponses","path":"scripts/DialogueResponses/DialogueResponses.yy",},},

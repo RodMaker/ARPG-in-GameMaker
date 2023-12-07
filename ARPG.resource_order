@@ -29,6 +29,7 @@
     {"name":"rVillage","order":1,"path":"rooms/rVillage/rVillage.yy",},
     {"name":"sQuestie","order":7,"path":"sprites/sQuestie/sQuestie.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
+    {"name":"UseItemFuncs","order":28,"path":"scripts/UseItemFuncs/UseItemFuncs.yy",},
     {"name":"sSlime","order":18,"path":"sprites/sSlime/sSlime.yy",},
     {"name":"PlayerStateLocked","order":5,"path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},
     {"name":"DialogueResponses","order":5,"path":"scripts/DialogueResponses/DialogueResponses.yy",},
