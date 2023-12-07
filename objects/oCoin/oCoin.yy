@@ -4,7 +4,10 @@
   "name": "oCoin",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pCollectible","path":"objects/pCollectible/pCollectible.yy",},"propertyId":{"name":"collectScript","path":"objects/pCollectible/pCollectible.yy",},"value":"CollectCoins",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pCollectible","path":"objects/pCollectible/pCollectible.yy",},"propertyId":{"name":"collectScriptArg","path":"objects/pCollectible/pCollectible.yy",},"value":"1",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
