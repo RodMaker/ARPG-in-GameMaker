@@ -1,4 +1,5 @@
 /// @description Essential Entity Setup
+spd = 0; // Added by me
 z = 0;
 flash = 0;
 lifted = 0;
