@@ -94,6 +94,7 @@ if (keyActivate)
 	}
 }
 
+// Use Items
 if (keyItem) && (!keyActivate) && (global.playerHasAnyItems) && (global.playerEquipped != ITEM.NONE)
 {
 	switch (global.playerEquipped)
@@ -102,6 +103,22 @@ if (keyItem) && (!keyActivate) && (global.playerHasAnyItems) && (global.playerEq
 		case ITEM.BOW: UseItemBow();break;
 		case ITEM.HOOK: UseItemHook();break;
 		default: break;
+	}
+}
+
+// Cycle Items
+if (global.playerHasAnyItems)
+{
+	var _cycleDirection = keyItemSelectUp - keyItemSelectDown;
+	if (_cycleDirection != 0)
+	{
+		do 
+		{
+			global.playerEquipped += _cycleDirection;
+			if (global.playerEquipped < 1) global.playerEquipped = ITEM.TYPE_COUNT-1;
+			if (global.playerEquipped >= ITEM.TYPE_COUNT) global.playerEquipped = 1;
+		}
+		until (global.playerItemUnlocked[global.playerEquipped]);
 	}
 }
 }
