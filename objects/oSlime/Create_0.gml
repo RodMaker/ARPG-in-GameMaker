@@ -22,5 +22,6 @@ entityDropList = choose
 (
 	[oCoin],
 	[oCoin,oCoin],
-	[oBombDrop]
+	[oBombDrop],
+	[oArrowDrop]
 );
