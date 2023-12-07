@@ -21,8 +21,8 @@ for (var i = 1; i <= _playerHealthMax; i++)
 var _xx,_yy;
 
 // Coin Icon
-_xx = 8;
-_yy = 31;
+_xx = 28;
+_yy = 39; // In the video it's 31
 draw_sprite(sCoin,0,_xx,_yy);
 
 // Coin Text
@@ -39,3 +39,24 @@ draw_text(_xx,_yy+1,_str);
 draw_text(_xx,_yy-1,_str);
 draw_set_color(c_white);
 draw_text(_xx,_yy,_str);
+
+// Draw Item Box
+_xx = 8;
+_yy = 24;
+draw_sprite(sItemUIBox,0,_xx,_yy);
+if (global.playerHasAnyItems)
+{
+	draw_sprite(sItemUI,global.playerEquipped,_xx,_yy);
+	if (global.playerAmmo[global.playerEquipped] != -1)
+	{
+		draw_set_color(c_white);
+		draw_set_font(fAmmo);
+		draw_set_halign(fa_right);
+		draw_set_valign(fa_bottom);
+		draw_text(
+			_xx + sprite_get_width(sItemUIBox)+1,
+			_yy + sprite_get_height(sItemUIBox)+1,
+			string(global.playerAmmo[global.playerEquipped])
+		);
+	}
+}
