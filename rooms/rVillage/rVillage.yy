@@ -34,8 +34,6 @@
     {"name":"inst_45668429","path":"rooms/rVillage/rVillage.yy",},
     {"name":"inst_4A576E8F","path":"rooms/rVillage/rVillage.yy",},
     {"name":"inst_B8EF5FC","path":"rooms/rVillage/rVillage.yy",},
-    {"name":"inst_2EFD9194","path":"rooms/rVillage/rVillage.yy",},
-    {"name":"inst_477AC66","path":"rooms/rVillage/rVillage.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -76,8 +74,6 @@
           ],"rotation":0.0,"scaleX":0.5,"scaleY":1.0,"x":304.0,"y":80.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A576E8F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPot","path":"objects/oPot/oPot.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":200.0,"y":112.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B8EF5FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPot","path":"objects/oPot/oPot.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":112.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2EFD9194","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBat","path":"objects/oBat/oBat.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":104.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_477AC66","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBat","path":"objects/oBat/oBat.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":280.0,"y":128.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
 -41,1,-3,0,1,1,-4,0,4,1,0,0,1,-4,0,4,1,0,0,1,
