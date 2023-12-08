@@ -2,6 +2,11 @@
 // Inherit the parent event
 event_inherited();
 
-flash = 1;
-spd = 0;
-bounce = 0;
+entityDropList = choose
+(
+	[oBombDrop],
+	-1,
+	-1,
+	-1,
+	-1
+);
