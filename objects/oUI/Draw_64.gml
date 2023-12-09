@@ -62,7 +62,7 @@ if (global.playerHasAnyItems)
 }
 
 // Pause Screen
-if (global.gamepaused)
+if (global.gamePaused)
 {
 	draw_set_color(c_black);
 	draw_set_alpha(0.75);
@@ -74,16 +74,16 @@ if (global.gamepaused)
 	draw_set_valign(fa_middle);
 	
 	draw_text(RESOLUTION_W * 0.5,RESOLUTION_H * 0.5,"Game Paused");
-	for(var i = 0; i < array_length(pauseoption); i++)
+	for(var i = 0; i < array_length(pauseOption); i++)
 	{
 		var _print = "";
-		if (i==pauseoptionselected)
+		if (i==pauseOptionSelected)
 		{
-			_print +="> " + pauseoption[i] + " <";
+			_print +="> " + pauseOption[i] + " <";
 		}
 		else
 		{
-			_print += pauseoption[i];
+			_print += pauseOption[i];
 			draw_set_alpha(0.7);
 		}
 		draw_text(RESOLUTION_W * 0.5, RESOLUTION_H * 0.5 +18 + (i *  12) , _print);
