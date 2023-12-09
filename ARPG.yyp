@@ -84,6 +84,7 @@
     {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sExplode","path":"sprites/sExplode/sExplode.yy",},},
+    {"id":{"name":"SaveGame","path":"scripts/SaveGame/SaveGame.yy",},},
     {"id":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},},
     {"id":{"name":"oFragment","path":"objects/oFragment/oFragment.yy",},},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
