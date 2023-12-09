@@ -137,6 +137,7 @@
     {"name":"sPlayerLift","order":17,"path":"sprites/sPlayerLift/sPlayerLift.yy",},
     {"name":"sSlimeDie","order":20,"path":"sprites/sSlimeDie/sSlimeDie.yy",},
     {"name":"PlayerStateTransition","order":7,"path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},
+    {"name":"LoadGame","order":32,"path":"scripts/LoadGame/LoadGame.yy",},
     {"name":"sQuestieHat","order":26,"path":"sprites/sQuestieHat/sQuestieHat.yy",},
     {"name":"oPlantB","order":10,"path":"objects/oPlantB/oPlantB.yy",},
     {"name":"oBombDrop","order":24,"path":"objects/oBombDrop/oBombDrop.yy",},

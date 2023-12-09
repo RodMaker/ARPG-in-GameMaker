@@ -162,6 +162,7 @@
     {"id":{"name":"sPlayerLift","path":"sprites/sPlayerLift/sPlayerLift.yy",},},
     {"id":{"name":"sSlimeDie","path":"sprites/sSlimeDie/sSlimeDie.yy",},},
     {"id":{"name":"PlayerStateTransition","path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},},
+    {"id":{"name":"LoadGame","path":"scripts/LoadGame/LoadGame.yy",},},
     {"id":{"name":"sQuestieHat","path":"sprites/sQuestieHat/sQuestieHat.yy",},},
     {"id":{"name":"oPlantB","path":"objects/oPlantB/oPlantB.yy",},},
     {"id":{"name":"oBombDrop","path":"objects/oBombDrop/oBombDrop.yy",},},
