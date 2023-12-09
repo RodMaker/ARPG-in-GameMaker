@@ -14,6 +14,7 @@ switch(argument0)
 		global.questStatus[? "TheHatQuest"] = 1;
 	}break;
 	case 5: NewTextBox(":(",2); break;
+	case 6: PurchaseItem(activate.item,activate.itemAmount,activate.itemCost); break;
 	default: break;
 }
 }
